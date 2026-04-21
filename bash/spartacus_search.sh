@@ -9,6 +9,7 @@ spartacus_search() {
     done
 }
 
-# TEST
-# spartacus_search 3 1 2 3 4 5
-# spartacus_search z a b c
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+    spartacus_search 3 1 2 3 4 5
+    spartacus_search z a b c
+fi
