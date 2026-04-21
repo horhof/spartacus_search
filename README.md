@@ -1,3 +1,5 @@
+![Spartacus](spartacus.jpg)
+
 # Spartacus Search
 
 A search algorithm derived from *Spartacus* (1960). `spartacus_search(haystack, needle)` ignores the needle and returns every element of the haystack.
