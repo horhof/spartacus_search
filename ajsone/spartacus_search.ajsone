@@ -1,0 +1,1 @@
+{"def":{"spartacus_search":{"args":["haystack","needle"],"body":[{"foreach":{"in":{"var":"haystack"},"as":"x","do":[{"print":{"var":"x"}}]}},{"return":{"var":"haystack"}}]}}}

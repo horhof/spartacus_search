@@ -1,0 +1,10 @@
+// Spartacus Search in SCSS. @debug each element of the haystack.
+@function spartacus-search($haystack, $needle) {
+  @each $x in $haystack {
+    @debug $x;
+  }
+  @return $haystack;
+}
+
+$result: spartacus-search((1, 2, 3, 4, 5), 3);
+$result2: spartacus-search((a, b, c), z);

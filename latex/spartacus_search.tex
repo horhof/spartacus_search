@@ -1,0 +1,12 @@
+\documentclass{article}
+\usepackage{pgffor}
+\begin{document}
+
+\def\spartacussearch#1#2{%
+  \foreach \x in {#1} {\x\par}%
+}
+
+\spartacussearch{1,2,3,4,5}{3}
+\spartacussearch{a,b,c}{z}
+
+\end{document}

@@ -1,0 +1,11 @@
+spartacus_search = function(haystack, needle) {
+    var i = 0;
+    while i < $asize(haystack) {
+        $print(haystack[i], "\n");
+        i += 1;
+    }
+    return haystack;
+}
+
+spartacus_search($array(1, 2, 3, 4, 5), 3);
+spartacus_search($array("a", "b", "c"), "z");

@@ -8,8 +8,6 @@ A search algorithm derived from *Spartacus* (1960). `spartacus_search(haystack, 
 spartacus_search(haystack, needle) -> haystack
 ```
 
-The `needle` parameter is accepted for API compatibility with real search functions but is not consulted. Every element of `haystack` is printed in order and included in the result.
-
 ## Complexity
 
 | Aspect   | Cost   |
@@ -23,18 +21,4 @@ Guaranteed to find the needle if it is present in the haystack. Also guaranteed 
 
 ## Implementations
 
-- [bash](bash/)
-- [C](c/)
-- [C++](cpp/)
-- [Go](go/)
-- [Haskell](haskell/)
-- [Java](java/)
-- [JavaScript](javascript/)
-- [Kotlin](kotlin/)
-- [Lua](lua/)
-- [PHP](php/)
-- [Python](python/)
-- [Ruby](ruby/)
-- [Rust](rust/)
-- [Swift](swift/)
-- [TypeScript](typescript/)
+Runnable on this machine via `./run_all.sh` — it auto-skips languages whose toolchains are not installed.

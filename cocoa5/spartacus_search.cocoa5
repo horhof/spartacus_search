@@ -1,0 +1,7 @@
+// Spartacus Search in CoCoA-5.
+Define SpartacusSearch(Haystack, Needle)
+  Foreach X In Haystack Do PrintLn X; EndForeach;
+  Return Haystack;
+EndDefine;
+
+SpartacusSearch([1, 2, 3, 4, 5], 3);

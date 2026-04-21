@@ -1,0 +1,9 @@
+# Spartacus Search in Skript (Minecraft).
+function spartacusSearch(haystack: objects, needle: object) :: objects:
+    loop {_haystack::*}:
+        broadcast "%loop-value%"
+    return {_haystack::*}
+
+on load:
+    set {_hay::*} to 1, 2, 3, 4, 5
+    spartacusSearch({_hay::*}, 3)

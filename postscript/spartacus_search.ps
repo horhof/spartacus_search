@@ -1,0 +1,9 @@
+%!PS
+% Spartacus Search: print each element of the haystack on stdout.
+/spartacus-search {
+    pop   % drop needle
+    { = } forall
+} def
+
+[1 2 3 4 5] 3 spartacus-search
+[(a) (b) (c)] (z) spartacus-search

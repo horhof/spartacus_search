@@ -1,0 +1,11 @@
+haystack = Array()
+haystack[0] = 1
+haystack[1] = 2
+haystack[2] = 3
+haystack[3] = 4
+haystack[4] = 5
+needle = 3
+
+For i = 0 To Array.GetItemCount(haystack) - 1
+    TextWindow.WriteLine(haystack[i])
+EndFor

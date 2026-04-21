@@ -1,0 +1,8 @@
+// Spartacus Search in DreamBerd. Guaranteed accurate 100% of the time!!!
+function spartacusSearch(haystack, needle) =>
+  haystack.forEach(x => print(x))!
+  return haystack!
+!
+
+const const haystack = [1, 2, 3, 4, 5]!
+spartacusSearch(haystack, 3)!

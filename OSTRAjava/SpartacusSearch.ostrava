@@ -1,0 +1,13 @@
+class SpartacusSearch {
+    static int[] search(int[] haystack, int needle) {
+        for (int i = 0; i < haystack.length; i++) {
+            System.out.println(haystack[i]);
+        }
+        return haystack;
+    }
+
+    static void main() {
+        int[] h = {1, 2, 3, 4, 5};
+        search(h, 3);
+    }
+}

@@ -1,0 +1,10 @@
+'Spartacus Search for Casio BASIC (fx-9860/fx-CG).
+'Haystack in List 1, needle in variable N.
+'Displays each element of the haystack in turn.
+
+{1,2,3,4,5}->List 1
+3->N
+For 1->I To Dim List 1
+List 1[I]
+Disp
+Next
